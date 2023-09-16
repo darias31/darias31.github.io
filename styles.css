@@ -1,0 +1,27 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #1e5433;
+    text-align: center;
+    background-color: #d5ebd5;
+}
+
+.info {
+    background-color: #a6c1a6;
+    font-size: large;
+    padding: 15px;
+    margin-top: 15px;
+    font-weight: 
+}
+
+.headshot {
+    border: 8px solid #a6c1a6;
+}
+
+a {
+    color: darkgreen;
+  }
+  
+  /* Style the anchor (link) when it is hovered over to have a lighter green color */
+  a:hover {
+    color: #d5ebd5;
+  }
