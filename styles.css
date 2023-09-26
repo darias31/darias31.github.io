@@ -2,26 +2,69 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #1e5433;
     text-align: center;
-    background-color: #d5ebd5;
+    background-color: #e4f0e4;
+    line-height: 140%;
+}
+
+h3 {
+    font-size: 1.5em;
 }
 
 .info {
-    background-color: #a6c1a6;
+    background-color: #b4c9b4;
     font-size: large;
     padding: 15px;
     margin-top: 15px;
-    font-weight: 
 }
 
 .headshot {
-    border: 8px solid #a6c1a6;
+    border: 8px solid #b4c9b4;
 }
 
 a {
-    color: darkgreen;
-  }
+    color: #1e5433;
+}
+
+a:hover {
+    color: #e4f0e4;
+}
+
+.project_a:hover {
+    color: #acc6ac;
+}
+
+.container {
+    display: flex;
+    min-height: auto;
+}
   
-  /* Style the anchor (link) when it is hovered over to have a lighter green color */
-  a:hover {
-    color: #d5ebd5;
-  }
+.main-content {
+    border: 4px solid #b4c9b4;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.left-panel {
+    flex:2;
+    border-right: 0px;
+    padding: 20px;
+    background-color: #e4f0e4; /*haven't decided what I want this color to be yet. Kept it same as body for now */
+
+}
+  
+.right-panel {
+    flex: 1;
+    padding: 20px;
+}
+  
+.ul_tier_1 {
+    font-weight: bold;
+}
+
+.indent_p {
+    padding-left: 30px;
+}
+
+.bold_span {
+    font-weight: bold;
+}
